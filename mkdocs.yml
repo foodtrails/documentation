@@ -12,5 +12,6 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/logo.css
 nav:
-  - Overview: index.md
+  - Background: index.md
   - Wireframe: wireframe.md
+  - Contact: contact.md

@@ -1,4 +1,10 @@
-# Overview
+## About This Project
+
+FoodTrails seeks to be a web-based platform to help schools (and other public organizations) track food procurement with an aim towards increased purchasing from local providers.
+
+This website provides an informational overview of the project. If you have further questions please reach out to us at [contact@foodtrails.org.](mailto:contact@foodtrails.org?Subject=Contact Page Request)
+
+## Overview
 
 In Rhode Island, Farm to School and associated local food procurement efforts have been growing over the years, with benefits accruing at the levels of environment, economy, community, and individual health. RI needs comprehensive data about what is being purchased, from whom, from where, and in what format (and more) in order to understand, evaluate, monitor, and grow local food procurement efforts; to understand the economic, social, and health impacts of those purchases; to seek funding in order to grow farm to school and other local food procurement efforts; and to influence procurement-related legislation. Yet accessing comprehensive, reliable, real-time data on local food procurement has proven elusive, both in RI and elsewhere around the country. Manual aggregation and analysis of local procurement data have proven to be prohibitively time-intensive—a reality which creates limits to stakeholder willingness to participate in data collection along all segments of the supply chain—while also being significantly subject to human error.
 
