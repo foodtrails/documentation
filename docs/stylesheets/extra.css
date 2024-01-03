@@ -2,3 +2,7 @@
     --md-primary-fg-color:        #904D12;
     --md-accent-fg-color:         #448407;
 }
+
+.md-footer {
+    display: none
+}
