@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Welcome to Foodtrails
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+FoodTrails seeks to be a web-based platform to help schools (and other public organizations) track food procurement with an aim towards increased purchasing from local providers.
 
 ## Commands
 
