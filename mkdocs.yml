@@ -1,7 +1,17 @@
 site_name: FoodTrails
+
 theme:
   name: material
-  logo: img/logo.png
+  palette:
+    primary: custom
+    accent: custom
+  logo: logo/logo.png
+  favicon: logo/favicon.ico
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/logo.css
+
 nav:
   - Home: index.md
   - Wireframe: wireframe.md
