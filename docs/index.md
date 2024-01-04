@@ -1,26 +1,16 @@
 ## About This Project
 
 FoodTrails seeks to be a web-based platform to help schools (and other public organizations) track food procurement with an aim towards increased purchasing from local providers.
+This website provides an informational overview of the project. If you have further questions please reach out to us at contact@foodtrails.org.
 
-This website provides an informational overview of the project. If you have further questions please reach out to us at [contact@foodtrails.org](mailto:contact@foodtrails.org?Subject=Contact Page Request)
+## Background & Objectives
 
-## Overview
-
+In 2022, the Rhode Island Department of Education (RIDE) retained the food systems consultancy KK&P– with project partners DigiCyber, The Center for Good Food Purchasing, and Farm to Institution New England (FINE)– to define the parameters of a technology tool that could eliminate the burden of manual data entry for school food authorities, increase accuracy of local procurement tracking, and leverage those capacities to promote and enhance the scope and efficacy of local food procurement initiatives in RI and beyond. FoodTrails emerged from this initiative and research.
 In Rhode Island, Farm to School and associated local food procurement efforts have been growing over the years, with benefits accruing at the levels of environment, economy, community, and individual health. RI needs comprehensive data about what is being purchased, from whom, from where, and in what format (and more) in order to understand, evaluate, monitor, and grow local food procurement efforts; to understand the economic, social, and health impacts of those purchases; to seek funding in order to grow farm to school and other local food procurement efforts; and to influence procurement-related legislation. Yet accessing comprehensive, reliable, real-time data on local food procurement has proven elusive, both in RI and elsewhere around the country. Manual aggregation and analysis of local procurement data have proven to be prohibitively time-intensive—a reality which creates limits to stakeholder willingness to participate in data collection along all segments of the supply chain—while also being significantly subject to human error.
+After extensive research with people across the RI school food supply chain, the consultant team summarized specifications for the development of a baseline platform that serves as a first step toward minimizing manual data entry and improving the accuracy of metric generation in local food procurement tracking. Those specifications are outlined below. 
+In partnership with RIDE, in 2024, FoodTrails– comprised of DigiCyber and KK&P, who led the initial research– will be developing a platform that enables users to upload procurement data/velocity reports, standardize and clean this data, and produce reliable metrics. It is meant to serve as a proof of concept through which to test the assumptions and recommendations made prior to development and to establish a strong, initial technological foundation upon which to expand functionality, partnerships, goals, and impact. 
+The broader, long-term goal of the software tool is to improve supply chain transparency, inform policy, and catalyze procurement of local food by educational institutions.
 
-This document summarizes specifications for the development of a baseline platform that serves as a first step toward minimizing manual data entry and improving the accuracy of metric generation in local food procurement tracking. The solution enables users to upload procurement data/velocity reports, standardize and clean this data, and produce reliable metrics. It is meant to serve as a proof of concept through which to test the assumptions and recommendations made prior to development and to establish a strong, initial technological foundation upon which to expand functionality, partnerships, goals, and impact. The broader, long-term goal of the software tool is to improve supply chain transparency, inform policy, and catalyze procurement of local food by educational institutions in the state.
-
-## Project Objectives
-
-In order to make data-driven decisions that allow jurisdictions to effectively seek resources to expand local procurement efforts and farm to school programming, the Rhode Island Department of Education (RIDE) retained the food systems consultancy KK&P– with project partners DigiCyber, The Center for Good Food Purchasing, and Farm to Institution New England (FINE)– to define the parameters of a technology tool that could eliminate the burden of manual data entry for school food authorities, increase accuracy of local procurement tracking, and leverage those capacities to promote and enhance the scope and efficacy of local food procurement initiatives in RI and beyond.
-
-More specifically, project objectives include:
-
-- Develop a detailed understanding of the relevant current technology conditions among RIDE CNP stakeholders and identify opportunities and challenges related to uptake of a new tracking tool.
-- Identify, research, and describe potential technology solutions– those currently in use elsewhere and ones which could potentially be developed by RIDE– and summarize the pros, cons, and implications.
-- Vet potential technology solutions with key potential users, gather meaningful feedback, and develop a summary assessment of potential paths forward.
-- Define the specifications for a base platform (or minimum viable product) and recommendations for successful implementation in a document for internal use by RIDE and partners.
-- Draft a next phase work plan to build and test the minimum viable product with an initial cohort of users in an iterative design process that is achievable within RIDE’s current available budget.
 
 ## Baseline Platform Specifications
 
