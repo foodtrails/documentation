@@ -8,9 +8,15 @@ theme:
   logo: logo/logo.png
   favicon: logo/favicon.ico
 
+extra:
+  analytics:
+    provider: google
+    property: G-6E3YWE6T8W
+
 extra_css:
   - stylesheets/extra.css
   - stylesheets/logo.css
+
 nav:
   - Background: index.md
   - Wireframe: wireframe.md
