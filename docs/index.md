@@ -14,13 +14,15 @@ The broader, long-term goal of the software tool is to improve supply chain tran
 
 ## Baseline Platform Specifications
 
+_This section is taken from the KK&P/DigiCyber research, report and recommendations to RIDE that underlie FoodTrails_
+
 It is important to note that there is a broad range of functions a platform that meets these objectives could have and a broad range of goals that it could achieve. In defining the specifications below, the project team boiled down the problem and solution to their simplest forms. This simple, initial, baseline solution creates a foundation on which complexity can later be built, as needs and context change and as the universe of users expands.
 
 With the knowledge that even the best technology tool cannot bring forth better data from the supply chain than the supply chain itself possesses and is willing to share, the minimum platform specifications below were developed based on the specific existing stakeholder capacities described and observed during project research and the actual quality and consistency of available data. The project team sees that the data chain itself can be enhanced iteratively, just as the software tool will be.
 
 Based on the research processes and findings above, the KK&P team recommends that RIDE’s initial round of development of a web-based platform for tracking local food procurement include the following base functions:
 
-- A user (SFA or FSMC) has the ability to upload velocity reports from suppliers for whom data pipelines have been developed (this is addressed in more detail in the Distributor & Supplier Data Onboarding section of this report).
+- A user, School Food Administrator (SFA) or Food Service Management Company (FSMC), has the ability to upload velocity reports from suppliers for whom data pipelines have been developed (this is addressed in more detail in the Distributor & Supplier Data Onboarding section of this report).
 - A user can retrieve all of their own historic uploaded velocity reports as well as the standardized and cleaned data at any time.
 - Users with an administration role can view the data of facilities under their responsibility, including both raw and standardized reports and relevant data metrics. (E.g. A school district administrator can view data of all facilities they oversee; a RIDE administrator can access all data for all RIDE users.)
 - The software application will convert units and aggregate purchases when provided varied standard units (i.e. bushels, cases, lbs, oz).
@@ -41,6 +43,8 @@ The specifications above define the “minimum viable product” that would acco
 
 ## Distributor & Supplier Data Onboarding
 
+*This section is taken from the KK&P/DigiCyber research, report and recommendations to RIDE that underlie FoodTrails*
+
 Supplier data onboarding will be an early step in the platform development process, and for that reason, we want to outline some key components of that process within this memo. The project team’s research indicated that each supplier utilizes their own unique format of velocity reports, based on the data they have, how that data is organized within the software they use internally, and the structure and consistency of that data. As a result, specialized data pipelines must be constructed for each supplier in order to allow the platform to navigate these varying formats and then incorporate and standardize that data on the backend for analysis.
 
 These unique data pipelines represent one of the largest uncertainties within this project, as the difference in velocity report and data structure exist across suppliers but also within the reports of a single supplier if the underlying source of their data is not unified. For example, not all suppliers provide product descriptions in the same format or even in the same field within their internal databases and often rely on human-entered data which can introduce input errors. Product measurements too are also often provided in unpredictable formats (#, lbs, pounds, or various typos associated with each of these, etc.) which must be unified for the data and platform to be useful to users.
@@ -58,6 +62,8 @@ Steps to onboard a new supplier and build a supplier pipeline might include:
 Once developed, the data pipeline will translate data from a variety of unique velocity report formats into a standardized format that can be used for data aggregation and analysis across all suppliers.
 
 ## User Engagement
+
+*This section is taken from the KK&P/DigiCyber research, report and recommendations to RIDE that underlie FoodTrails*
 
 After participating in onboarding processes designed by the development team (the components of which will be defined during the initial platform development process and timeline), users within the testing cohort will be required to participate in user research interviews which will be an hour in length at a regular frequency (such as monthly), during the initial product development. They will also be required to complete periodic questionnaires. In addition, initial users will be expected to submit bug tickets, file complaints, and seek support as needed as they interact with the platform.
 

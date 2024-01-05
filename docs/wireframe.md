@@ -28,7 +28,7 @@ An individual user will be able to view data associated with their facility, suc
 
 The application collects data through user-uploaded velocity reports, representing a history of their purchases over a specific time period. The application will automatically parse velocity reports, standardize the units and item types, save both the original and standardized velocity report, and include the resulting data in the facility's records. Facility records are aggregated to provide state level insight and oversight.
 
-![Individual Level Display](./img/wireframe/wireframevelcoityupload.png)
+![Individual Level Display](./img/wireframe/wireframevelocityupload.png)
 
 ## Purchase History
 
