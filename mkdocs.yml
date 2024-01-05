@@ -5,6 +5,9 @@ theme:
   palette:
     primary: custom
     accent: custom
+  features:
+    - toc.integrate
+    - navigation.top
   logo: logo/logo.png
   favicon: logo/favicon.ico
 
