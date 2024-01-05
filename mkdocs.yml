@@ -2,6 +2,7 @@ site_name: FoodTrails
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: custom
     accent: custom
@@ -11,10 +12,13 @@ theme:
   logo: logo/logo.png
   favicon: logo/favicon.ico
 
+copyright: Copyright &copy; 2024 FoodTrails, Inc.
+
 extra:
   analytics:
     provider: google
     property: G-6E3YWE6T8W
+  generator: false
 
 extra_css:
   - stylesheets/extra.css

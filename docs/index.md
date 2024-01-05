@@ -5,16 +5,21 @@ This website provides an informational overview of the project. If you have furt
 
 ## Background & Objectives
 
-In 2022, the Rhode Island Department of Education (RIDE) retained the food systems consultancy KK&P– with project partners DigiCyber, The Center for Good Food Purchasing, and Farm to Institution New England (FINE)– to define the parameters of a technology tool that could eliminate the burden of manual data entry for school food authorities, increase accuracy of local procurement tracking, and leverage those capacities to promote and enhance the scope and efficacy of local food procurement initiatives in RI and beyond. FoodTrails emerged from this initiative and research.
-In Rhode Island, Farm to School and associated local food procurement efforts have been growing over the years, with benefits accruing at the levels of environment, economy, community, and individual health. RI needs comprehensive data about what is being purchased, from whom, from where, and in what format (and more) in order to understand, evaluate, monitor, and grow local food procurement efforts; to understand the economic, social, and health impacts of those purchases; to seek funding in order to grow farm to school and other local food procurement efforts; and to influence procurement-related legislation. Yet accessing comprehensive, reliable, real-time data on local food procurement has proven elusive, both in RI and elsewhere around the country. Manual aggregation and analysis of local procurement data have proven to be prohibitively time-intensive—a reality which creates limits to stakeholder willingness to participate in data collection along all segments of the supply chain—while also being significantly subject to human error.
+In 2022, the [Rhode Island Department of Education (RIDE)](https://ride.ri.gov/) retained the food systems consultancy [Karen Karp & Partners (KK&P)](https://kkandp.com/)–with project partners [DigiCyber](https://digi-cyber.com/), [The Center for Good Food Purchasing](https://goodfoodpurchasing.org/), and [Farm to Institution New England (FINE)](https://www.farmtoinstitution.org/)–to define the parameters of a technology tool that could eliminate the burden of manual data entry for school food authorities, increase accuracy of local procurement tracking, and leverage those capacities to promote and enhance the scope and efficacy of local food procurement initiatives in RI and beyond. FoodTrails emerged from this initiative and research.
+
+In Rhode Island, Farm to School and associated local food procurement efforts have been growing over the years, with benefits accruing at the levels of environment, economy, community, and individual health. RI needs comprehensive data about what is being purchased, from whom, from where, in what format, and more in order to understand, evaluate, monitor, and grow local food procurement efforts; to understand the economic, social, and health impacts of those purchases; to seek funding in order to grow farm to school and other local food procurement efforts; and to influence procurement-related legislation. Yet accessing comprehensive, reliable, real-time data on local food procurement has proven elusive, both in RI and elsewhere around the country. Manual aggregation and analysis of local procurement data have proven to be prohibitively time-intensive—a reality which creates limits to stakeholder willingness to participate in data collection along all segments of the supply chain—while also being significantly subject to human error.
+
 After extensive research with people across the RI school food supply chain, the consultant team summarized specifications for the development of a baseline platform that serves as a first step toward minimizing manual data entry and improving the accuracy of metric generation in local food procurement tracking. Those specifications are outlined below. 
-In partnership with RIDE, in 2024, FoodTrails– comprised of DigiCyber and KK&P, who led the initial research– will be developing a platform that enables users to upload procurement data/velocity reports, standardize and clean this data, and produce reliable metrics. It is meant to serve as a proof of concept through which to test the assumptions and recommendations made prior to development and to establish a strong, initial technological foundation upon which to expand functionality, partnerships, goals, and impact. 
+
+In partnership with RIDE and KK&P, the FoodTrails team is developing a platform that enables users to upload procurement data/velocity reports, standardize and clean this data, and produce reliable metrics. It is meant to serve as a proof of concept through which to test the assumptions and recommendations made prior to development and to establish a strong, initial technological foundation upon which to expand functionality, partnerships, goals, and impact.
+
 The broader, long-term goal of the software tool is to improve supply chain transparency, inform policy, and catalyze procurement of local food by educational institutions.
 
+&nbsp;
+
+*The following sections are excerpts from a research report compiled by KK&P and their partners for RIDE*
 
 ## Baseline Platform Specifications
-
-_This section is taken from the KK&P/DigiCyber research, report and recommendations to RIDE that underlie FoodTrails_
 
 It is important to note that there is a broad range of functions a platform that meets these objectives could have and a broad range of goals that it could achieve. In defining the specifications below, the project team boiled down the problem and solution to their simplest forms. This simple, initial, baseline solution creates a foundation on which complexity can later be built, as needs and context change and as the universe of users expands.
 
@@ -43,8 +48,6 @@ The specifications above define the “minimum viable product” that would acco
 
 ## Distributor & Supplier Data Onboarding
 
-*This section is taken from the KK&P/DigiCyber research, report and recommendations to RIDE that underlie FoodTrails*
-
 Supplier data onboarding will be an early step in the platform development process, and for that reason, we want to outline some key components of that process within this memo. The project team’s research indicated that each supplier utilizes their own unique format of velocity reports, based on the data they have, how that data is organized within the software they use internally, and the structure and consistency of that data. As a result, specialized data pipelines must be constructed for each supplier in order to allow the platform to navigate these varying formats and then incorporate and standardize that data on the backend for analysis.
 
 These unique data pipelines represent one of the largest uncertainties within this project, as the difference in velocity report and data structure exist across suppliers but also within the reports of a single supplier if the underlying source of their data is not unified. For example, not all suppliers provide product descriptions in the same format or even in the same field within their internal databases and often rely on human-entered data which can introduce input errors. Product measurements too are also often provided in unpredictable formats (#, lbs, pounds, or various typos associated with each of these, etc.) which must be unified for the data and platform to be useful to users.
@@ -63,11 +66,8 @@ Once developed, the data pipeline will translate data from a variety of unique v
 
 ## User Engagement
 
-*This section is taken from the KK&P/DigiCyber research, report and recommendations to RIDE that underlie FoodTrails*
-
 After participating in onboarding processes designed by the development team (the components of which will be defined during the initial platform development process and timeline), users within the testing cohort will be required to participate in user research interviews which will be an hour in length at a regular frequency (such as monthly), during the initial product development. They will also be required to complete periodic questionnaires. In addition, initial users will be expected to submit bug tickets, file complaints, and seek support as needed as they interact with the platform.
 
 Optimally, RIDE will participate in user research interviews and complete periodic questionnaires as well, offering the product development team ongoing input as platform administrator. It is customary for user participation to be incentivized—the client and development team can determine what methods might be effective and what resources might be available for such incentives.
 
 The initial testing described above occurs during the development of the minimum viable product (MVP). Upon resolving initial development issues with the small group of users, the development team and client will determine when the platform is ready to move to an “open beta” stage of development, in which a broader group of users are invited to use the platform (with the understanding that its development is ongoing) and provide feedback to the development team with the understanding that it is still under development.
-

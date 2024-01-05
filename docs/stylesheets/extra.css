@@ -3,6 +3,6 @@
     --md-accent-fg-color:         #448407;
 }
 
-.md-footer {
-    display: none
+.md-nav__title {
+    display: none;
 }
