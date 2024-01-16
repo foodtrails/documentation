@@ -1,7 +1,7 @@
 ## About This Project
 
 FoodTrails seeks to be a web-based platform to help schools (and other public organizations) track food procurement with an aim towards increased purchasing from local providers.
-This website provides an informational overview of the project. If you have further questions please reach out to us at [contact@foodtrails.org](mailto:contact@foodtrails.org?Subject=Contact Page Request)
+This website was created to share research sponsored by the Rhode Island Department of Education and provide an informational overview of the project inspired by that research. This page will continue to be updated as the project matures. If you have further questions please reach out to us at [contact@foodtrails.org](mailto:contact@foodtrails.org?Subject=Contact Page Request)
 
 ## Background & Objectives
 
