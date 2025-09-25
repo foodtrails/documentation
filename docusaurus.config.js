@@ -55,10 +55,23 @@ const config = {
         navbar: {
           title: 'FoodTrails',
           logo: { alt: 'FoodTrails Logo', src: 'logo/logo.png' },
+          style: 'primary',
           items: [
-            { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Docs' },
-            { to: '/docs', label: 'Docs', position: 'left' },
+            {
+              type: 'docSidebar',
+              sidebarId: 'tutorialSidebar',
+              position: 'left',
+              label: 'Docs',
+            },
+            {
+              label: 'Public Data',
+              position: 'left',
+              items: [
+                { label: 'Rhode Island', to: '/docs/wireframe' },
+              ],
+            },
             { href: 'https://github.com/digicyber/documentation', label: 'GitHub', position: 'right' },
+            { to: '/docs/contact', label: 'Contact', position: 'right', className: 'navbar__item--cta' },
           ],
         },
         footer: {
