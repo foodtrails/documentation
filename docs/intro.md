@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+slug: /
+---
 ## About This Project
 
 FoodTrails seeks to be a web-based platform to help schools (and other public organizations) track food procurement with an aim towards measuring and increasing local food procurement. This website was created to share research sponsored by the Rhode Island Department of Education to define the starting specifications for a local food procurement tracking platform and to provide an informational overview of the platform and development process inspired by that research. This page will continue to be updated as the project matures. If you have further questions please reach out to us at [contact@foodtrails.org](mailto:contact@foodtrails.org?Subject=Contact Page Request)
