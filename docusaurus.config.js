@@ -32,6 +32,7 @@ const config = {
         {
           docs: {
             sidebarPath: require.resolve('./sidebars.js'),
+            routeBasePath: '/',
           },
           blog: {
             showReadingTime: true,
@@ -61,17 +62,17 @@ const config = {
               type: 'docSidebar',
               sidebarId: 'tutorialSidebar',
               position: 'left',
-              label: 'Docs',
+              label: 'Documentation',
             },
             {
               label: 'Public Data',
               position: 'left',
               items: [
-                { label: 'Rhode Island', to: '/docs/wireframe' },
+                { label: 'Rhode Island', to: '/wireframe' },
               ],
             },
             { href: 'https://github.com/digicyber/documentation', label: 'GitHub', position: 'right' },
-            { to: '/docs/contact', label: 'Contact', position: 'right', className: 'navbar__item--cta' },
+            { to: '/contact', label: 'Contact', position: 'right', className: 'navbar__item--cta' },
           ],
         },
         footer: {
@@ -79,7 +80,7 @@ const config = {
           links: [
             {
               title: 'Docs',
-              items: [{ label: 'Docs', to: '/docs/' }],
+              items: [{ label: 'Docs', to: '/' }],
             },
             {
               title: 'Community',
