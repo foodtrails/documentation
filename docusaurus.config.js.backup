@@ -17,8 +17,22 @@ const config = {
   organizationName: 'digicyber',
   projectName: 'documentation',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/docs/',
+            from: '/',
+          },
+        ],
+      },
+    ],
+  ],
 
   i18n: {
     defaultLocale: 'en',
