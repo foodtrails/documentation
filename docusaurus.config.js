@@ -12,7 +12,7 @@ const config = {
   future: { v4: true },
 
   url: 'https://foodtrails.org',
-  baseUrl: '/documentation/',
+  baseUrl: '/',
 
   organizationName: 'digicyber',
   projectName: 'documentation',
@@ -57,23 +57,7 @@ const config = {
           title: 'FoodTrails',
           logo: { alt: 'FoodTrails Logo', src: 'logo/logo.png' },
           style: 'primary',
-          items: [
-            {
-              type: 'docSidebar',
-              sidebarId: 'tutorialSidebar',
-              position: 'left',
-              label: 'Documentation',
-            },
-            {
-              label: 'Public Data',
-              position: 'left',
-              items: [
-                { label: 'Rhode Island', to: '/wireframe' },
-              ],
-            },
-            { href: 'https://github.com/digicyber/documentation', label: 'GitHub', position: 'right' },
-            { to: '/contact', label: 'Contact', position: 'right', className: 'navbar__item--cta' },
-          ],
+          items: [],
         },
         footer: {
           style: 'dark',

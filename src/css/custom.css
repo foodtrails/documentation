@@ -49,6 +49,23 @@
   color: #000000;
 }
 
+/* Improve navbar link contrast */
+.navbar__link {
+  color: #1976d2 !important;
+  font-weight: 500;
+}
+.navbar__link:hover {
+  color: #0d47a1 !important;
+}
+
+/* Dark mode navbar link contrast */
+[data-theme='dark'] .navbar__link {
+  color: #64b5f6 !important;
+}
+[data-theme='dark'] .navbar__link:hover {
+  color: #bbdefb !important;
+}
+
 /* Hero section styling closer to frontend banner colors */
 .hero.hero--primary {
   background: #e3f2fd;
