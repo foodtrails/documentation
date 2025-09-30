@@ -49,6 +49,21 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        hashed: true,
+        language: ['en'],
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: '/',
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ (
       {
@@ -58,31 +73,6 @@ const config = {
           logo: { alt: 'FoodTrails Logo', src: 'logo/logo.png' },
           style: 'primary',
           items: [],
-        },
-        footer: {
-          style: 'dark',
-          links: [
-            {
-              title: 'Docs',
-              items: [{ label: 'Docs', to: '/' }],
-            },
-            {
-              title: 'Community',
-              items: [
-                { label: 'Stack Overflow', href: 'https://stackoverflow.com/questions/tagged/docusaurus' },
-                { label: 'Discord', href: 'https://discordapp.com/invite/docusaurus' },
-                { label: 'X', href: 'https://x.com/docusaurus' },
-              ],
-            },
-            {
-              title: 'More',
-              items: [
-                { label: 'Blog', to: '/blog' },
-                { label: 'GitHub', href: 'https://github.com/digicyber/documentation' },
-              ],
-            },
-          ],
-          copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
         },
         prism: {
           theme: prismThemes.github,

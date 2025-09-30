@@ -94,3 +94,180 @@
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
+
+/* Column layout for documentation with side images */
+.doc-content-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+  align-items: start;
+}
+
+.doc-main-content {
+  grid-column: 1;
+}
+
+.doc-side-image {
+  grid-column: 2;
+  position: sticky;
+  top: 2rem;
+}
+
+.doc-side-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .doc-content-layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .doc-side-image {
+    position: static;
+    order: -1; /* Show image above text on mobile */
+  }
+}
+
+/* Side-by-side layout for step sections with images */
+.markdown h3 + ol {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.markdown h3 + ol li {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Images that immediately follow step lists appear alongside */
+.markdown h3 + ol + p img,
+.markdown h3 + ol + p + p img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 0;
+}
+
+/* Container for side-by-side content */
+.markdown h3 + ol + p {
+  flex: 0 0 auto;
+  max-width: 400px;
+  margin: 0;
+}
+
+/* Scroll-based tutorial layout */
+.markdown .scroll-tutorial {
+  display: flex;
+  gap: 3rem;
+  margin: 2rem 0;
+  min-height: 800px;
+}
+
+.markdown .tutorial-steps {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.markdown .tutorial-step {
+  min-height: 300px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.markdown .tutorial-step.active {
+  opacity: 1;
+  background: #f8f9fa;
+  border-color: #1976d2;
+  box-shadow: 0 4px 12px rgba(25, 118, 210, 0.1);
+}
+
+[data-theme='dark'] .markdown .tutorial-step.active {
+  background: #1e1e1e;
+  border-color: #64b5f6;
+}
+
+.markdown .tutorial-step h4 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: #1976d2;
+}
+
+[data-theme='dark'] .markdown .tutorial-step h4 {
+  color: #64b5f6;
+}
+
+.markdown .tutorial-image-sticky {
+  flex: 0 0 600px;
+  max-width: 600px;
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+
+.markdown .tutorial-image-sticky img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: opacity 0.3s ease;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 968px) {
+  .markdown .scroll-tutorial {
+    flex-direction: column;
+  }
+  
+  .markdown .tutorial-image-sticky {
+    position: static;
+    max-width: 100%;
+    flex: 1;
+  }
+  
+  .markdown .tutorial-step {
+    min-height: auto;
+  }
+}
+
+/* General markdown images */
+.markdown img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 1rem 0 1.5rem 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 968px) {
+  .markdown h3 + ol {
+    flex-direction: column;
+  }
+  
+  .markdown .step-with-image {
+    flex-direction: column;
+  }
+  
+  .markdown .step-with-image .step-image {
+    flex: 1;
+    max-width: 100%;
+  }
+  
+  .markdown img {
+    max-width: 100%;
+  }
+}
