@@ -9,8 +9,6 @@ const config = {
   tagline: 'Local food procurement tracking',
   favicon: 'logo/favicon.ico',
 
-  future: { v4: true },
-
   url: 'https://foodtrails.org',
   baseUrl: '/documentation/',
 
