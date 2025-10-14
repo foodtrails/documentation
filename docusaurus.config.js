@@ -47,21 +47,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@easyops-cn/docusaurus-search-local',
-      {
-        hashed: true,
-        language: ['en'],
-        indexDocs: true,
-        indexBlog: false,
-        docsRouteBasePath: '/',
-        searchResultLimits: 8,
-        searchResultContextMaxLength: 50,
-      },
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ (
       {
