@@ -12,7 +12,7 @@ const config = {
   future: { v4: true },
 
   url: 'https://foodtrails.org',
-  baseUrl: '/',
+  baseUrl: '/documentation/',
 
   organizationName: 'digicyber',
   projectName: 'documentation',
