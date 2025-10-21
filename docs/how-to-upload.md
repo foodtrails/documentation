@@ -34,16 +34,16 @@ Currently, only suppliers with established data pipelines can have their reports
 
 ### Step 2: Select Your Files
 
-1. Click "Choose Files" or drag and drop files into the upload area
-
-2. Select one or multiple velocity reports from your suppliers
-
-3. Ensure files are named clearly (e.g., "SupplierName_ReportDate.xlsx"), these files will be stored and available for your retrieval at a later time if you need them.
+<ol>
+<li>Click "Choose Files" or drag and drop files into the upload area</li>
+<li>Select one or multiple velocity reports from your suppliers</li>
+<li>Ensure files are named clearly (e.g., "SupplierName_ReportDate.xlsx"), these files will be stored and available for your retrieval at a later time if you need them.</li>
+</ol>
 
 ### Step 3: Upload and Process
 
-1. Click "Submit Files"
-
-2. The system will validate your files and begin processing
-
-3. Processing may take a few minutes depending on file size and complexity
+<ol>
+<li>Click "Submit Files"</li>
+<li>The system will validate your files and begin processing</li>
+<li>Processing may take a few minutes depending on file size and complexity</li>
+</ol>
