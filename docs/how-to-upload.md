@@ -23,12 +23,12 @@ Currently, only suppliers with established data pipelines can have their reports
 
 ### Step 1: Access the Upload Section
 
-1. Log in to your FoodTrails account
-2. Navigate to the "Data Upload" section on the left sidebar
+- Log in to your FoodTrails account
+- Navigate to the "Data Upload" section on the left sidebar
 
 ![Data Upload Section Location](/img/DataUploadDirection.png)
 
-3. Click the "Select Files" button or drag your document into the upload box
+- Click the "Select Files" button or drag your document into the upload box
 
 ![Select Files Button](/img/SelectFiles.png)
 
