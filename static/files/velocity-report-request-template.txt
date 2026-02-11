@@ -1,0 +1,31 @@
+Dear [[Vendor/Contact Name]],
+
+I'm writing to request a comprehensive, itemized velocity report (also sometimes called a usage or purchase history report) of all of our SFA's purchases from you for the month(s) of [MONTH].
+
+We'd like the report to contain as many of the below fields/columns as available:
+
+• Vendor Name (Indicated on report or in column)
+• Purchase Dates or Date Range (Indicated on report or in column)
+• Invoice Date
+• Invoice Number
+• Receiving Facility, Customer, and/or District Name
+• Item Name / Description
+• Supplier Name (Source Farmer, Manufacturer/Processor, and/or Brand)
+• Production State
+• Production Address (If Available)
+• Pack Size
+• Price Per Unit
+• Units Received
+• Item Number or SKU (If Available)
+• Item GTIN, UPC, or EAN (If Available)
+• Domestically Produced (Y/N)
+
+Please note the following:
+
+• All Purchases: Please include all purchases on the report–not just local purchases–with supplier names and production state information included.
+• Consistent Formatting: We'd like this report to be exported from your system in spreadsheet format (.xlsx or .csv) in accordance with whatever procedure is most consistent and replicable for you. If you have an option to produce reports using an "Export All Fields" function in your system, we'll gladly take those as they are.
+• Missing Fields: We understand that field names may vary, and that information for some fields may not always be available. Please send us what you have even if information is missing.
+• Data Reporting Template: The accompanying template is available for you to adopt, or to serve as an example of the type of report we want to receive. Its use is not mandatory.
+• Monthly Cadence: We will be requesting these reports from you monthly.
+
+Thank you for your participation and cooperation. Please let us know if you have any questions, and thank you.
